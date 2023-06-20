@@ -11,12 +11,11 @@ const data = [
   }
  
 ];
-if(data.length<20 || Object.keys(data).length<8){
+if(data.length<20){
 for(var i=0; i<20 ; i++){
     if(!data[i]){
         data[i] ={
             id : i,
-          
         };
     }
 }    
